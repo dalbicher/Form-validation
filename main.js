@@ -1,9 +1,3 @@
-const container = document.getElementById("page");
-const warningMessage = document.createElement('p');
-warningMessage.setAttribute('class', 'warning');
-warningMessage.textContent = "Paniek!";
-container.appendChild(warningMessage);$git
-
 const usernameField = document.getElementById("username");
 const warningMessageUsername = document.getElementById("username-warning");
 
