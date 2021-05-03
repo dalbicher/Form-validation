@@ -1,0 +1,24 @@
+form {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: aquamarine;
+    width: 300px;
+    height: 250px;
+    align-content: space-evenly;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#title {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.form-warning {
+    color: red;
+    font-size: 10px;
+    /*dit zorgt ervoor dat als er content in de p tag gezet wordt, de rest van de elementen niet verspringt*/
+    min-height: 16px;
+}

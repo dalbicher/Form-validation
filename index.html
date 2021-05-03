@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+<div class="form">
+
+    <form action>
+        <legend id="title"><b>Registreren </b></legend>
+
+        <br>
+        <p id="username">
+            <label for="username">Gebruikersnaam:
+                <br/>
+                <input type="text" id="username" name="username" size="40" maxlength="60" aria-invalid="@"/>
+            </label>
+        <p class="form-warning" id="username-warning"></p>
+        <p/>
+
+
+        <p id="password">
+            <label for="password">Wachtwoord:
+                <br/>
+                <br/>
+                <input type="text" id="password" name="password" size="40" minlength="6"/>
+                <br/>
+            </label>
+        <p class="form-warning" id="password-warning"></p>
+        </p>
+        <div/>
+    </form>
+
+    <script src="main.js"></script>
+</body>
