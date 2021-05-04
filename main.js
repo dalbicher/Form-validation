@@ -17,7 +17,7 @@ const warningMessagePassword = document.getElementById("password-warning");
 passwordField.addEventListener('keyup', getPassword);
 
 function getPassword(e) {
-    if(e.target.value === '') || e.target.value.length > 6) {
+    if(e.target.value === '' || e.target.value.length > 6) {
     warningMessagePassword.textContent = '';
 } else (e.target.lenght < 6) {
     warningMessagePassword = "Wachtwoord is te kort, gebruik minimaal 6 tekens";
